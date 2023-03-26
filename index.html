@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Угадай число</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Jost&display=swap" rel="stylesheet">
+
+</head>
+<body>
+   <div id="squer"></div>
+   <div class="oval"> 
+    <p class="ugadai">Угадай</p>
+    <p class="chislo">число</p>
+    <p class="vopros">?</p>
+    <p class="otodin">От 1 до 100</p>
+    <img src="img/d71a3e3c02d84862e175c2b2a3df6779.png" class="esh">
+    
+</div>
+   <div class="squerodin"></div>
+   <button onclick="press()"  class="proverka">Проверить</button>
+   <div></div>
+   <button class="eshe" onclick="op()">Еще раз</button>
+   <div class="vvodchislo"><p>Введите предполагаемое число:</p>
+   
+</div>
+   <!-- <div class="vvod"> -->
+    <input class="vvod" type="number" placeholder="Поле ввода" maxlength="3">
+   </div>
+   <p class="bolshe">Загаданное число больше/меньше</p>
+   <p class="life">Жизни :</p>
+   <p class="schet-life"></p>
+   <p class="resultat">Рекорд по попыткам :</p>
+   <p class="schet-resultat">-</p>
+<p class="ggg">Вы молодец!</p>
+
+   <script src="scrypt.js"></script>
+</body>
+</html>

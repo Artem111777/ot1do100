@@ -1,0 +1,194 @@
+body {
+    display: inline-block;
+    /* background-color: black; */
+    margin: 0;
+    
+}
+
+#squer {
+    width: 500px;
+    height: 340px;
+    border-radius: 0px 0px 40px 0px;
+    background-color: #E5E0FE;
+    display: inline-block;
+    position: flex-box;
+    bottom: 250px;
+    right: 900px;
+    margin-top: 0px;
+}
+
+.oval {
+    width: 321px;
+    height: 421px;
+    background-color: #CFFE67;
+    border-radius: 40px;
+    border: solid 7px black;
+    position: absolute;
+    top: 275px;
+    left: 70px;
+}
+
+.squerodin {
+    width: 210px;
+    height: 174px;
+    background-color: #E5E0FE;
+    position: absolute;
+    border-radius: 40px 0px 0px 0px;
+    left: 1150px;
+    top: 550px;
+}
+
+.proverka {
+    width: 170px;
+    height: 66px;
+    font-family: 'Jost', sans-serif;
+    border-radius: 20px;
+    background-color: #C3E27E;
+    border: solid #C3E27E;
+    font-size: 25px;
+    position: absolute;
+    left: 930px;
+    top: 110px;
+}
+
+.ugadai {
+    font-family: 'Russo One', sans-serif;
+    color: black;
+    font-size:  75px;
+    left: 25px;
+    position: absolute;
+    bottom: 545px;
+
+}
+
+.chislo {
+    font-family: 'Russo One', sans-serif;
+    color: black;
+    font-size:  75px;
+    left: 45px;
+    position: absolute;
+    bottom: 450px;
+}
+
+.vopros {
+    font-family: 'Russo One', sans-serif;
+    font-size:  100px;
+    margin: 0;
+    color: black;
+    text-align: center;
+}
+
+.otodin {
+    font-family: 'Jost', sans-serif;
+    font-size: 40px;
+    position: absolute;
+    left: 56px;
+    bottom: 410px;
+}
+
+.esh {
+    height: 270px;
+    width: 275px;
+    position: absolute;
+    top: 151px;
+    left: 10px;
+}
+
+.eshe {
+    width: 190px;
+    height: 86px;
+    font-family: 'Jost', sans-serif;
+    border-radius: 30px;
+    background-color: #C3E27E;
+    border: solid #C3E27E;
+    font-size: 23px;
+    position: absolute;
+    left: 1120px;
+    top: 590px;
+}
+
+.eshe:hover {
+    background-color: #CFFE67;
+    border: solid 7px #CFFE67;
+    transition: 0.3s;
+}
+
+.proverka:hover {
+    background-color: #CFFE67;
+    border: solid 7px #CFFE67;
+    transition: 0.3s;
+}
+
+.vvodchislo {
+    font-family: 'Jost', sans-serif;
+    font-size: 35px;
+    position: absolute;
+    left: 600px;
+    bottom: 520px;
+}
+
+.vvod {
+    width: 260px;
+    height: 60px;
+    font-family: 'Jost', sans-serif;
+    border-radius: 10px;
+    font-size: 25px;
+    position: absolute;
+    left: 602px;
+    top: 110px;
+    padding-left: 20px;
+    color: #716C6C;
+}
+
+.vvod:focus {
+    background-color: #E4E4E4;
+    font: 75px #716C6C;
+    color: #716C6C;
+    padding-left: 15px;
+    transition: 0.2s;
+}
+
+.bolshe {
+    font-family: 'Jost', sans-serif;
+    font-size: 30px;
+    position: absolute;
+    left: 600px;
+    bottom: 360px;
+}
+
+.life{
+    font-family: 'Jost', sans-serif;
+    position: absolute;
+    font-size: 35px;
+    left: 599px;
+    top: 400px;
+}
+
+.schet-life {
+    font-family: 'Jost', sans-serif;
+    position: absolute;
+    font-size: 35px;
+    left: 740px;
+    top: 400px;
+}
+
+.resultat {
+    font-family: 'Jost', sans-serif;
+    position: absolute;
+    font-size: 35px;
+    left: 599px;
+    top: 450px;
+}
+
+.schet-resultat {
+    font-family: 'Jost', sans-serif;
+    position: absolute;
+    font-size: 35px;
+    left: 950px;
+    top: 450px;
+}
+
+.ggg {
+    position: absolute;
+    right: 50000px;
+}
