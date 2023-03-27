@@ -32,12 +32,12 @@ function gameover(){
 function press(){
     document.querySelector(".schet-life").innerHTML = life
     function esli (){
-        if (document.querySelector(".vvod").value < 1
+        if (document.querySelector(".vvod").value <= 0
         ){ 
         bt.disabled = true
         alert ("Мы играем от 1 до 100, начни сначала)") 
         }
-        else (document.querySelector(".vvod").value > 100)
+        else (document.querySelector(".vvod").value >= 100)
         {
         bt.disabled = true
         alert ("Мы играем от 1 до 100, начни сначала)") 
